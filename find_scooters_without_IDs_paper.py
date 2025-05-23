@@ -339,7 +339,7 @@ if __name__ == '__main__':
     # step 0.b: load the data and calculate the appearing/disappearing scooters, then store them in a file
     # all_day = dataloader.load_all_files(load_folder)
     # all_day = sanitize_data(all_day)
-    # appearing_lst, disappearing_lst = make_appearing_disappearing_lists(all_day)  # this step takes some time 16:22 -
+    # appearing_lst, disappearing_lst = make_appearing_disappearing_lists(all_day)  # this step takes some time ~1.5h
     # safe_appearing_disappearing_lists(appearing_lst, disappearing_lst, safe_file)
 
     # step 0.c: if the file is already available, you can simply load it (saves a lot of time)
